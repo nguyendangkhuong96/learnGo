@@ -7,13 +7,6 @@ import (
 
 func main() {
 
-	beego.AppConfig.String("mysqluser")
-	beego.AppConfig.String("mysqlpass")
-	beego.AppConfig.String("mysqlurls")
-	beego.AppConfig.String("mysqldb")
-
-
-
 	beego.Run()
 }
 
